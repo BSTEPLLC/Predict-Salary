@@ -1,5 +1,5 @@
 # salarypredictionportfolio
-Salary Prediction Project (Python)
+Salary Prediction Project (Python)**
 
 Examining a set of job postings with salaries and then predict salaries for a new set of job postings.
 
@@ -16,6 +16,12 @@ Deliverables
 The data including Job Type and Industry, years of experience, and applicant Degree, Major, and location in miles From Metropolis, describes
 the parameters from job posting requirements and applicant CV (the features) for the HR department to offer reasonable salary to staff and thereby be able to reduce unnecessary cost to the company while maintaining positive employee motivation.
 
-Revision 1.0 Solution is a Python 3.0 analysis utilizing Pandas, Numpy, with matplotlib and Seaborn visualizations, and Sklearn for the machine learning modeling analysis. The EDA process lead to finding and engineer data to adust for with outlier.  The models considered where based on the Linear relationship between the features and thesalary target.  
+Revision 3.0 Solution is a Python 3.0 analysis utilizing Pandas, Numpy, with matplotlib and Seaborn visualizations, and Sklearn for the machine learning modeling analysis. The EDA process lead to finding and engineer data to adust for with outlier.  The models considered where based on the Linear relationship between the features and the salary target.  
 
 Machine learning models used, namely Linear Regression, Random Forest, and Gradient Boosting lead to MSE of 313.14 which is 79.1% below the baseline model that has MSE of 1499
+
+Code Files: README.md this file
+Data Explorations: Salary-Predictions-EDA.ipynb  - explored data features, cleaned data set, established baseline prediction models 
+Prediction Analysis: Salary-Prediction-Analysis.ipynb - Utilized CLASS definitions for Data, Feature Generation, and ModuleContainer from code templates from available data science (DSDJ) to organize code and create a cleaner model and to be used in future projects.    
+
+** Baseline project to gain full understanding of Michine Learning algorithm and Object Oriented Coding methods in Python
